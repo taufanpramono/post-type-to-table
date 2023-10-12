@@ -1,0 +1,44 @@
+/*===================== 
+
+styling table post type 
+by : taufan
+update : 12/10/2023
+
+=======================*/
+
+
+#event-styling-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#event-styling-table td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#event-styling-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#event-styling-table tr:hover {background-color: #ddd;}
+
+#event-styling-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.style-event {
+	background-color:#c5c1e4;
+	padding:5px;
+	width: auto;
+}
+
+.style-agenda {
+	background-color:#d6084d;
+	color:white;
+	padding:5px;
+	width: auto;
+}
