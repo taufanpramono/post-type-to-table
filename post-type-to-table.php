@@ -28,9 +28,9 @@ function display_events() {
     if ($events_query->have_posts()) {
         while ($events_query->have_posts()) {
             $events_query->the_post();
-            $current_date = get_field('tanggal_event'); // Mendapatkan tanggal_event saat ini
-            $event_title = get_the_title();
-            $event_type = get_field('jenis_event');
+            $current_date = get_field('tanggal_event'); // Mendapatkan tanggal_event saat ini dari acf field
+            $event_title = get_the_title(); //mendapatkan judul post
+            $event_type = get_field('jenis_event'); //mendapatkan jenis event dari acf field
 			
 
             if (!isset($grouped_events[$current_date])) {
