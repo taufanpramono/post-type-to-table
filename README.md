@@ -7,7 +7,18 @@
 sehingga metode pemanggilan datanya menggunakan get_field('nama_field');. pastikan output berbentuk tanggal event (date) & jenis event (text)
 
 **cara menggunakan Styling CSS**
-anda dapat menempatkan kode CSS atau styling pada Appearance > Customize > additional Css
+1. anda dapat menempatkan kode CSS atau styling pada Appearance > Customize > additional Css
+
+**output Frotnend**
+1. gunakan shortcode [data_event]
+
+**screenshoot**
+1. data source post type : https://prnt.sc/revmVmuxHhuq
+2. Add New Post Type : https://prnt.sc/lZ0J_QRBSXCj
+3. Ouput on Pages : https://prnt.sc/H-WHnnIiq-rU
+
+
+
 
 
 
