@@ -1,4 +1,4 @@
-##post type to table v.1
+**post type to table v.1**
 
 **Cara menggunakan kode PHP**
 1. gunakan plugin code snippet / snippet code, atau dapat diletakan pada file function.php pada tema yang anda miliki
@@ -11,6 +11,12 @@ sehingga metode pemanggilan datanya menggunakan get_field('nama_field');. pastik
 
 **output Frotnend**
 1. gunakan shortcode [data_event]
+
+**Daftar Plugin yang digunakan**
+1. Code Lite
+2. Advanced Custom Field (ACF)
+3. CPT UI
+4. Elementor (optional) > widged shortcode. //shortcode bisa di tempatkan pada halaman wordpress tanpa elementor
 
 **screenshoot**
 1. data source post type : https://prnt.sc/revmVmuxHhuq
