@@ -1,4 +1,4 @@
-#post type to table v.1
+##post type to table v.1
 
 **Cara menggunakan kode PHP**
 1. gunakan plugin code snippet / snippet code, atau dapat diletakan pada file function.php pada tema yang anda miliki
